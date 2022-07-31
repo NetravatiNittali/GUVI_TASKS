@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=fo, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+        html{
+            background-color: black;
+            
+        }
+        
+        body{
+            max-width:fit-content;
+            max-height:fit-content;        
+            background-color: white;
+            border-color:black;
+            border-width: 8px;
+            margin-top: 200px;
+            margin-left: 550px;
+            margin-right: 580px;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-bottom: 8px;
+            border-style: double;            
+                        
+        }
+        p{
+            background-color: red;
+            text-align: center;
+            font-size:larger;
+            font-weight:bolder;
+            color:white;
+            border:solid red 2px;
+            width:fit-content;
+        }
+        #in{
+            border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+            border-bottom-style: groove;
+            font-size: medium;
+            font-weight: bold;
+            font-family: 'Sacramento', cursive;
+            
+        }
+        input[type='checkbox']:checked{
+            accent-color:black;
+            
+        }
+        label{
+            font-size: 15px;
+            font-weight: bold;
+        }
+        sup{
+            font-size: small;
+        }
+       
+    </style>
+</head>
+<body>
+    <form>
+        <p>YES! I want to subscribe to <i>Mag-O-Zine</i></p>
+        <input type="text" placeholder="" size="9px" value="Goe" id="in">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="in" placeholder=""  size="20px" value="Sehmegeggie">
+        <br><sup>First Name</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup>Last Name</sup>
+        <br></be><input type="text" id="in" placeholder="" size="38px" value="1001 Washington Street">
+        <br><sup>Address</sup>
+        <br><input type="text" id="in" placeholder="" size="8px" value="Agoura">&nbsp;&nbsp;&nbsp;<input type="text" id="in" placeholder=""  size="8px" value="LA">&nbsp;&nbsp;&nbsp;<input type="text" id="in" placeholder=""  size="8px" value="99999">
+        <br><sup>city</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup>State</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup>Zip</sup>
+        <br><label>Subscribe for:</label> <input type="checkbox"  checked><label>1 year($19.95)</label>  <input type="checkbox" > <label> years($35.00)</label>
+        <br><label>Send me more information about:</labell> 
+        <br><input type="checkbox"  checked>Computer_Zine<br><input type="checkbox" class="ck">Fishing_Zine <br><input type="checkbox" checked>Cat_O_Zine
+
+    </form>
+</body>
+</html>

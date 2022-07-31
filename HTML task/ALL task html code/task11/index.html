@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        html{
+            background-color:gold  ;
+            margin-top:50px;
+            margin-left:500px;
+            margin-right: 500px;
+
+        }
+        body{
+                border: solid none 5px;
+                padding:20px;
+                background:linear-gradient(to bottom, #000099 8%, #800000 100%);
+                line-height: 2;
+                text-indent:60px;
+                text-transform: capitalize;
+                word-spacing:2px;
+                display:grid;
+                color:white;
+                font-weight: bolder;
+                
+                
+        }
+        input{
+            border-radius: 25px;
+        }
+      
+    </style>
+</head>
+<body>
+    <h2>HTML Form Input Types</h2>
+    <form>
+        <div>
+            Text: <input type="text" name="te" id="te">
+        </div>
+        <div>
+            Password: <input type="password" name="p" id="p">
+        </div>
+        <div>
+            Radio Button : Gender: <input type="radio" name="gender"> Male <input type="radio" name="gender"> Female <input type="radio" name="gender"> Other
+        </div>
+        <div>
+            CheckBox: <input type="checkbox" name="c" id="c"> Agree to the terms
+        </div>
+        <div>
+            File: <input type="file" name="f" id="f">
+        </div>
+        <div>
+            Date: <input type="date" name="d" id="d">
+        </div>
+        <div>
+            Datetime-local: <input type="datetime-local">
+        </div>
+        <div>
+            Month: <input type="month" class="month">
+        </div>
+        <div>
+            Time: <input type="time" name="t" id="t">
+        </div>
+        <div>
+            Week: <input type="week" name="w" id="w">
+        </div>
+        <div>
+           color: <input type="color" name="c" id="c">
+        </div>
+        <div>
+           email: <input type="email" name="e" id="e">
+        </div>
+        <div>
+            telephone : <input type="tel" name="t" id="t" pattern="[0-9]{10}">
+        </div>
+        <div>
+            Search: <input type="search" name="s" id="s" >
+        </div>
+        <div>
+            Range: <input type="range" name="r" id="r" min="1" max="10">
+        </div>
+        <div>
+            Number: <input type="number" name="n" id="n">
+        </div>
+        <div>
+            url: <input type="url" name="u" id="u">
+        </div>
+        <div>
+            Buttons: <input type="submit" value="Submit"> <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
